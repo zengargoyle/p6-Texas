@@ -1,0 +1,26 @@
+#
+# See: man 5 Compose
+#
+
+# %L is the current locale's default Compose file If you have your own
+# ~/.XCompose setting you probably want to include the defaults.  Usually
+# it's found somewhere like: '/usr/share/X11/$LANG/Compose'.
+#include "%L"
+
+# I prefer to copy the default Compose into ~/.XCompose.$LANG
+# (it makes `fgrep ??? ~/.XCompose.*` an easy way to find compose combinations.
+
+# %H is the users $HOME
+
+# default locale
+include "%H/.XCompose.en_US.UTF-8"
+
+# https://raw.githubusercontent.com/kragen/xcompose/master/dotXCompose
+include "%H/.XCompose.kragen"
+
+# Perl6 TEXAS mappings
+include "%H/.XCompose.perl6"
+
+# personal stuff goes here
+include "%H/.XCompose.local"
+
