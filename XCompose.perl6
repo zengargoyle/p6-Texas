@@ -1,0 +1,42 @@
+# ∈ (elem)
+<Multi_key> <parenleft> <e> <l> <e> <m> <parenright> : "∈" U2208 # ELEMENT OF
+# ∉ !(elem)
+<Multi_key> <exclam> <parenleft> <e> <l> <e> <m> <parenright> : "∉" U2209 # NOT AN ELEMENT OF
+# ∋ (cont)
+<Multi_key> <parenleft> <c> <o> <n> <t> <parenright> : "∋" U220B # CONTAINS AS MEMBER
+# ∌ !(cont)
+<Multi_key> <exclam> <parenleft> <c> <o> <n> <t> <parenright> : "∌" U220C # DOES NOT CONTAIN AS MEMBER
+# ⊆ (<=)
+<Multi_key> <parenleft> <less> <equal> <parenright> : "⊆" U2286 # SUBSET OF OR EQUAL TO
+# ⊈ !(<=)
+<Multi_key> <exclam> <parenleft> <less> <equal> <parenright> : "⊈" U2288 # NEITHER A SUBSET OF NOR EQUAL TO
+# ⊂ (<)
+<Multi_key> <parenleft> <less> <parenright> : "⊂" U2282 # SUBSET OF
+# ⊄ !(<)
+<Multi_key> <exclam> <parenleft> <less> <parenright> : "⊄" U2284 # NOT A SUBSET OF
+# ⊇ (>=)
+<Multi_key> <parenleft> <greater> <equal> <parenright> : "⊇" U2287 # SUPERSET OF OR EQUAL TO
+# ⊉ !(>=)
+<Multi_key> <exclam> <parenleft> <greater> <equal> <parenright> : "⊉" U2289 # NEITHER A SUPERSET OF NOR EQUAL TO
+# ⊃ (>)
+<Multi_key> <parenleft> <greater> <parenright> : "⊃" U2283 # SUPERSET OF
+# ⊅ !(>)
+<Multi_key> <exclam> <parenleft> <greater> <parenright> : "⊅" U2285 # NOT A SUPERSET OF
+# ≼ (<+)
+<Multi_key> <parenleft> <less> <plus> <parenright> : "≼" U227C # PRECEDES OR EQUAL TO
+# ≽ (>+)
+<Multi_key> <parenleft> <greater> <plus> <parenright> : "≽" U227D # SUCCEEDS OR EQUAL TO
+# ∪ (|)
+<Multi_key> <parenleft> <bar> <parenright> : "∪" U222A # UNION
+# ∩ (&)
+<Multi_key> <parenleft> <ampersand> <parenright> : "∩" U2229 # INTERSECTION
+# ∖ (-)
+<Multi_key> <parenleft> <minus> <parenright> : "∖" U2216 # SET MINUS
+# ⊖ (^)
+<Multi_key> <parenleft> <asciicircum> <parenright> : "⊖" U2296 # CIRCLED MINUS
+# ⊍ (.)
+<Multi_key> <parenleft> <period> <parenright> : "⊍" U228D # MULTISET MULTIPLICATION
+# ⊎ (+)
+<Multi_key> <parenleft> <plus> <parenright> : "⊎" U228E # MULTISET UNION
+# ≅ =~=
+<Multi_key> <equal> <asciitilde> <equal> : "≅" U2245 # APPROXIMATELY EQUAL TO
